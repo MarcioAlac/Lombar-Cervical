@@ -1,0 +1,87 @@
+2021-07-19 14:31:27,809 DEBUG cd bench && /home/zed/.local/bin/virtualenv -q env -p python3
+2021-07-19 14:31:28,453 LOG Getting app frappe
+2021-07-19 14:31:28,453 DEBUG cd bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2021-07-19 14:31:38,642 LOG installing frappe
+2021-07-19 14:31:38,643 DEBUG bench/env/bin/python -m pip install -q -U -e bench/apps/frappe 
+2021-07-19 14:32:26,133 DEBUG cd bench/apps/frappe && yarn install
+2021-07-19 14:32:40,958 DEBUG cd bench/apps/frappe && yarn install
+2021-07-19 14:32:42,130 DEBUG cd bench && bench build
+2021-07-19 14:32:42,571 INFO /home/zed/.local/bin/bench build
+2021-07-19 14:34:33,892 LOG setting up backups
+2021-07-19 14:34:33,926 INFO Bench bench initialized
+2021-07-19 14:35:00,297 INFO /home/zed/.local/bin/bench new-site atualli.local
+2021-07-19 14:38:22,440 INFO /home/zed/.local/bin/bench get-app https://github.com/grappetech/grappe_core.git
+2021-07-19 14:38:22,573 LOG Getting app grappe_core
+2021-07-19 14:38:22,574 DEBUG cd ./apps && git clone https://github.com/grappetech/grappe_core.git  --depth 1 --origin upstream
+2021-07-19 14:38:53,441 WARNING cd ./apps && git clone https://github.com/grappetech/grappe_core.git  --depth 1 --origin upstream executed with exit code 128
+2021-07-19 14:38:57,392 INFO /home/zed/.local/bin/bench get-app https://github.com/grappetech/grappe_core.git
+2021-07-19 14:38:57,474 LOG Getting app grappe_core
+2021-07-19 14:38:57,475 DEBUG cd ./apps && git clone https://github.com/grappetech/grappe_core.git  --depth 1 --origin upstream
+2021-07-19 14:39:10,813 LOG installing grappe_core
+2021-07-19 14:39:10,813 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/grappe_core 
+2021-07-19 14:39:13,230 DEBUG bench build --app grappe_core
+2021-07-19 14:39:13,475 INFO /home/zed/.local/bin/bench build --app grappe_core
+2021-07-19 14:39:40,650 INFO /home/zed/.local/bin/bench get-app https://github.com/grappetech/grappe_health.git
+2021-07-19 14:39:40,735 LOG Getting app grappe_health
+2021-07-19 14:39:40,736 DEBUG cd ./apps && git clone https://github.com/grappetech/grappe_health.git  --depth 1 --origin upstream
+2021-07-19 14:39:51,934 LOG installing grappe_health
+2021-07-19 14:39:51,935 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/grappe_health 
+2021-07-19 14:39:53,948 DEBUG bench build --app grappe_health
+2021-07-19 14:39:54,193 INFO /home/zed/.local/bin/bench build --app grappe_health
+2021-07-19 14:40:08,928 INFO /home/zed/.local/bin/bench --site
+2021-07-19 14:40:32,158 INFO /home/zed/.local/bin/bench --site atualli.local
+2021-07-19 14:40:48,755 INFO /home/zed/.local/bin/bench --site atualli.local install-app grappe_core
+2021-07-19 14:41:14,027 INFO /home/zed/.local/bin/bench --site atualli.local install-app grappe_health
+2021-07-19 14:41:33,485 INFO /home/zed/.local/bin/bench build
+2021-07-19 14:43:43,008 INFO /home/zed/.local/bin/bench start
+2021-07-19 14:43:43,864 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-19 14:43:43,948 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-19 14:43:43,975 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-19 14:43:44,024 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-19 14:43:44,045 INFO /home/zed/.local/bin/bench schedule
+2021-07-19 14:43:44,063 INFO /home/zed/.local/bin/bench watch
+2021-07-19 14:46:39,413 INFO /home/zed/.local/bin/bench set-config developer_mode 1
+2021-07-19 14:46:45,228 INFO /home/zed/.local/bin/bench start
+2021-07-19 14:46:46,102 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-19 14:46:46,144 INFO /home/zed/.local/bin/bench schedule
+2021-07-19 14:46:46,208 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-19 14:46:46,209 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-19 14:46:46,228 INFO /home/zed/.local/bin/bench watch
+2021-07-19 14:46:46,290 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-19 23:43:04,633 INFO /home/zed/.local/bin/bench start
+2021-07-19 23:43:05,508 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-19 23:43:05,551 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-19 23:43:05,581 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-19 23:43:05,616 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-19 23:43:05,664 INFO /home/zed/.local/bin/bench watch
+2021-07-19 23:43:05,690 INFO /home/zed/.local/bin/bench schedule
+2021-07-19 23:43:19,092 INFO /home/zed/.local/bin/bench start
+2021-07-19 23:43:19,897 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-19 23:43:20,006 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-19 23:43:20,033 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-19 23:43:20,069 INFO /home/zed/.local/bin/bench watch
+2021-07-19 23:43:20,080 INFO /home/zed/.local/bin/bench schedule
+2021-07-19 23:43:20,232 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-20 00:00:02,590 INFO /home/zed/.local/bin/bench --verbose --site all backup
+2021-07-20 01:32:16,370 INFO /home/zed/.local/bin/bench start
+2021-07-20 01:32:17,245 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-20 01:32:17,295 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-20 01:32:17,396 INFO /home/zed/.local/bin/bench watch
+2021-07-20 01:32:17,459 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-20 01:32:17,496 INFO /home/zed/.local/bin/bench schedule
+2021-07-20 01:32:17,512 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-20 09:35:28,379 INFO /home/zed/.local/bin/bench start
+2021-07-20 09:35:29,234 INFO /home/zed/.local/bin/bench watch
+2021-07-20 09:35:29,281 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-20 09:35:29,292 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-20 09:35:29,295 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-20 09:35:29,338 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-20 09:35:29,455 INFO /home/zed/.local/bin/bench schedule
+2021-07-20 09:36:10,785 INFO /home/zed/.local/bin/bench start
+2021-07-20 09:36:11,576 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-20 09:36:11,706 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-20 09:36:11,709 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-20 09:36:11,737 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-20 09:36:11,826 INFO /home/zed/.local/bin/bench watch
+2021-07-20 09:36:11,869 INFO /home/zed/.local/bin/bench schedule
+2021-07-20 12:00:02,395 INFO /home/zed/.local/bin/bench --verbose --site all backup

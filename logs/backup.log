@@ -1,0 +1,12 @@
+mysqldump --single-transaction --quick --lock-tables=false -u _28185696d19449c5 -pWsy7t2uv0omU2njW _28185696d19449c5 -h 127.0.0.1 -P 3306   | /bin/gzip >> ./atualli.local/private/backups/20210720_000003-atualli_local-database.sql.gz
+
+Backup Summary for atualli.local at 2021-07-20 00:00:09.756105
+Config  : ./atualli.local/private/backups/20210720_000003-atualli_local-site_config_backup.json 116.0B
+Database: ./atualli.local/private/backups/20210720_000003-atualli_local-database.sql.gz         276.4KiB
+Backup for Site atualli.local has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _28185696d19449c5 -pWsy7t2uv0omU2njW _28185696d19449c5 -h 127.0.0.1 -P 3306   | /bin/gzip >> ./atualli.local/private/backups/20210720_120003-atualli_local-database.sql.gz
+
+Backup Summary for atualli.local at 2021-07-20 12:00:10.200941
+Config  : ./atualli.local/private/backups/20210720_120003-atualli_local-site_config_backup.json 116.0B
+Database: ./atualli.local/private/backups/20210720_120003-atualli_local-database.sql.gz         326.0KiB
+Backup for Site atualli.local has been successfully completed
