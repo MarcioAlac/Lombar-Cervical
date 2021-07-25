@@ -1,0 +1,836 @@
+2021-07-21 16:34:01,653 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:35:01,907 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:36:02,164 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:36:02,203 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-21 16:36:02,525 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-21 16:36:02,620 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-21 16:36:02,931 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-21 16:36:03,042 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-21 16:36:03,498 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-21 16:36:03,582 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-21 16:36:03,941 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-21 16:36:04,025 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-21 16:36:04,416 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-21 16:36:04,507 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-21 16:36:04,858 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-21 16:37:02,385 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:38:02,643 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:39:02,866 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:40:03,135 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:40:03,174 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-21 16:40:03,486 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-21 16:40:03,570 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-21 16:40:03,892 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-21 16:40:03,998 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-21 16:40:04,447 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-21 16:40:04,531 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-21 16:40:04,890 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-21 16:40:04,972 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-21 16:40:05,377 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-21 16:40:05,461 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-21 16:40:05,823 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-21 16:41:03,389 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:46:26,471 DEBUG scheduler Queued events for site atualli.local
+2021-07-21 16:46:26,508 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-21 16:46:26,847 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-21 16:46:26,947 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-21 16:46:27,417 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-21 16:46:27,507 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-21 16:46:27,974 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-21 16:46:28,089 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-21 16:46:28,501 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-21 16:46:28,587 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-21 16:46:29,014 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-21 16:46:29,099 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-21 16:46:29,431 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-21 16:46:29,517 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-21 16:46:29,985 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-21 16:46:30,086 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-21 16:46:30,625 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-21 16:46:30,783 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-21 16:46:31,243 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 09:54:23,119 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.daily_backup for atualli.local
+2021-07-22 09:54:23,173 INFO scheduler Scheduled Job Start: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for atualli.local
+2021-07-22 09:54:23,707 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 09:54:23,893 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for atualli.local
+2021-07-22 09:54:23,928 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.daily_backup for atualli.local
+2021-07-22 09:54:23,997 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for atualli.local
+2021-07-22 09:54:24,038 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for atualli.local
+2021-07-22 09:54:24,579 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for atualli.local
+2021-07-22 09:54:24,654 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for atualli.local
+2021-07-22 09:54:24,692 INFO scheduler Scheduled Job Start: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for atualli.local
+2021-07-22 09:54:24,763 INFO scheduler Scheduled Job Start: frappe.utils.change_log.check_for_update for atualli.local
+2021-07-22 09:54:25,167 INFO scheduler Scheduled Job Complete: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for atualli.local
+2021-07-22 09:54:25,278 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for atualli.local
+2021-07-22 09:54:25,420 INFO scheduler Scheduled Job Failed: frappe.utils.change_log.check_for_update for atualli.local
+2021-07-22 09:54:25,543 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for atualli.local
+2021-07-22 09:54:25,770 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for atualli.local
+2021-07-22 09:54:25,872 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for atualli.local
+2021-07-22 09:54:26,310 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for atualli.local
+2021-07-22 09:54:26,446 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for atualli.local
+2021-07-22 09:54:26,592 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_contacts.google_contacts.sync for atualli.local
+2021-07-22 09:54:27,300 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_contacts.google_contacts.sync for atualli.local
+2021-07-22 09:54:27,395 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for atualli.local
+2021-07-22 09:54:27,833 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for atualli.local
+2021-07-22 09:54:27,928 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for atualli.local
+2021-07-22 09:54:28,361 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for atualli.local
+2021-07-22 09:54:28,457 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for atualli.local
+2021-07-22 09:54:28,903 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for atualli.local
+2021-07-22 09:54:29,006 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for atualli.local
+2021-07-22 09:54:29,857 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for atualli.local
+2021-07-22 09:54:29,958 INFO scheduler Scheduled Job Start: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for atualli.local
+2021-07-22 09:54:30,505 INFO scheduler Scheduled Job Failed: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for atualli.local
+2021-07-22 09:54:30,605 INFO scheduler Scheduled Job Start: frappe.email.doctype.notification.notification.trigger_daily_alerts for atualli.local
+2021-07-22 09:54:31,054 INFO scheduler Scheduled Job Complete: frappe.email.doctype.notification.notification.trigger_daily_alerts for atualli.local
+2021-07-22 09:54:31,151 INFO scheduler Scheduled Job Start: frappe.sessions.clear_expired_sessions for atualli.local
+2021-07-22 09:54:31,691 INFO scheduler Scheduled Job Complete: frappe.sessions.clear_expired_sessions for atualli.local
+2021-07-22 09:54:31,802 INFO scheduler Scheduled Job Start: frappe.desk.doctype.event.event.send_event_digest for atualli.local
+2021-07-22 09:54:32,421 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.event.event.send_event_digest for atualli.local
+2021-07-22 09:54:32,539 INFO scheduler Scheduled Job Start: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for atualli.local
+2021-07-22 09:54:33,014 INFO scheduler Scheduled Job Complete: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for atualli.local
+2021-07-22 09:54:33,125 INFO scheduler Scheduled Job Start: frappe.desk.notifications.clear_notifications for atualli.local
+2021-07-22 09:54:33,569 INFO scheduler Scheduled Job Complete: frappe.desk.notifications.clear_notifications for atualli.local
+2021-07-22 09:54:33,674 INFO scheduler Scheduled Job Start: frappe.email.queue.set_expiry_for_email_queue for atualli.local
+2021-07-22 09:54:34,114 INFO scheduler Scheduled Job Complete: frappe.email.queue.set_expiry_for_email_queue for atualli.local
+2021-07-22 09:54:34,215 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for atualli.local
+2021-07-22 09:54:34,740 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for atualli.local
+2021-07-22 09:54:34,843 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for atualli.local
+2021-07-22 09:54:35,472 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for atualli.local
+2021-07-22 09:54:35,605 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for atualli.local
+2021-07-22 09:54:36,201 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for atualli.local
+2021-07-22 09:54:36,297 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for atualli.local
+2021-07-22 09:54:36,714 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for atualli.local
+2021-07-22 09:54:36,805 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for atualli.local
+2021-07-22 09:54:37,244 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for atualli.local
+2021-07-22 09:54:37,340 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for atualli.local
+2021-07-22 09:54:37,773 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for atualli.local
+2021-07-22 09:54:37,877 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for atualli.local
+2021-07-22 09:54:38,296 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for atualli.local
+2021-07-22 09:54:38,389 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for atualli.local
+2021-07-22 09:54:38,818 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for atualli.local
+2021-07-22 09:54:38,929 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 09:54:39,244 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 09:54:39,336 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 09:54:39,662 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 09:54:39,755 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 09:54:40,244 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 09:54:40,334 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 09:54:40,752 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 09:54:40,836 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 09:54:41,226 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 09:54:41,314 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 09:54:41,727 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 09:54:41,813 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 09:54:42,277 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 09:54:42,372 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 09:54:42,906 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 09:54:43,037 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 09:54:43,492 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 09:55:23,945 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 09:56:24,376 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 09:56:24,422 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 09:56:24,850 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 09:56:25,006 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 09:56:25,456 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 09:56:25,561 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 09:56:26,183 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 09:56:26,271 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 09:56:26,741 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 09:56:26,861 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 09:56:27,331 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 09:56:27,415 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 09:56:27,802 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 09:57:24,623 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 09:58:24,849 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 09:59:25,085 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:00:25,455 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for atualli.local
+2021-07-22 10:00:25,518 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:00:26,218 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for atualli.local
+2021-07-22 10:00:26,338 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for atualli.local
+2021-07-22 10:00:26,975 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for atualli.local
+2021-07-22 10:00:27,114 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for atualli.local
+2021-07-22 10:00:27,763 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for atualli.local
+2021-07-22 10:00:27,891 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for atualli.local
+2021-07-22 10:00:28,596 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for atualli.local
+2021-07-22 10:00:28,772 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for atualli.local
+2021-07-22 10:00:29,406 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for atualli.local
+2021-07-22 10:00:29,543 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for atualli.local
+2021-07-22 10:00:30,099 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for atualli.local
+2021-07-22 10:00:30,218 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for atualli.local
+2021-07-22 10:00:30,656 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for atualli.local
+2021-07-22 10:00:30,754 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for atualli.local
+2021-07-22 10:00:31,235 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for atualli.local
+2021-07-22 10:00:31,332 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:00:31,732 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:00:31,873 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:00:32,354 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:00:32,494 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:00:33,191 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:00:33,328 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:00:33,787 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:00:33,880 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:00:34,360 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:00:34,466 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:00:34,975 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:00:35,135 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 10:00:35,649 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 10:00:35,746 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 10:00:36,323 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 10:00:36,450 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 10:00:36,908 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 10:01:25,761 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:02:26,122 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:03:26,365 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:04:26,647 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:04:26,688 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:04:27,002 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:04:27,101 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:04:27,419 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:04:27,524 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:04:27,983 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:04:28,068 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:04:28,485 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:04:28,571 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:04:28,973 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:04:29,060 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:04:29,394 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:05:26,981 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:06:27,222 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:07:27,461 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:08:27,710 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:08:27,758 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:08:28,056 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:08:28,141 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:08:28,471 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:08:28,560 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:08:29,007 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:08:29,094 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:08:29,484 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:08:29,577 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:08:29,973 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:08:30,059 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:08:30,397 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:09:27,950 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:10:28,188 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:11:28,486 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:12:28,839 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:12:28,905 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:12:29,287 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:12:29,374 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:12:29,698 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:12:29,809 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:12:30,275 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:12:30,361 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:12:30,759 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:12:30,843 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:12:31,256 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:12:31,380 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:12:31,784 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:13:29,087 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:14:29,327 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:15:29,581 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:15:29,648 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 10:15:30,115 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 10:15:30,214 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 10:15:30,765 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 10:15:30,879 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 10:15:31,427 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 10:16:29,879 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:16:29,954 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:16:30,368 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:16:30,476 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:16:30,806 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:16:30,896 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:16:31,381 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:16:31,466 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:16:31,828 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:16:31,914 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:16:32,308 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:16:32,393 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:16:32,758 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:17:30,129 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:18:30,366 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:19:30,605 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:20:30,875 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:20:30,916 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:20:31,238 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:20:31,324 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:20:31,628 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:20:31,717 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:20:32,193 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:20:32,278 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:20:32,667 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:20:32,753 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:20:33,164 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:20:33,248 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:20:33,611 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:21:31,117 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:22:31,371 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:23:31,618 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:24:31,868 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:24:31,906 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:24:32,227 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:24:32,331 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:24:32,665 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:24:32,770 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:24:33,213 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:24:33,299 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:24:33,697 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:24:33,784 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:24:34,197 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:24:34,282 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:24:34,653 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:25:32,111 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:26:32,357 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:27:32,602 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:28:32,900 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:28:32,939 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:28:33,265 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:28:33,378 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:28:33,706 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:28:33,797 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:28:34,245 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:28:34,331 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:28:34,734 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:28:34,820 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:28:35,232 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:28:35,317 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:28:35,697 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:29:33,167 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:30:33,430 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:30:33,496 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 10:30:33,980 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 10:30:34,080 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 10:30:34,644 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 10:30:34,773 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 10:30:35,246 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 10:31:33,831 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:32:34,180 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:32:34,225 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:32:34,666 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:32:34,776 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:32:35,120 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:32:35,224 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:32:35,708 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:32:35,794 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:32:36,190 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:32:36,276 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:32:36,784 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:32:36,872 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:32:37,229 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:33:34,434 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:34:34,663 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:35:34,905 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:36:35,166 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:36:35,205 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:36:35,532 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:36:35,623 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:36:35,955 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:36:36,048 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:36:36,511 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:36:36,598 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:36:36,997 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:36:37,086 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:36:37,566 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:36:37,681 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:36:38,072 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:37:35,405 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:38:35,694 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:39:35,941 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:40:36,239 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:40:36,275 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:40:36,599 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:40:36,710 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:40:37,032 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:40:37,127 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:40:37,606 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:40:37,704 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:40:38,100 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:40:38,187 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:40:38,591 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:40:38,676 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:40:39,041 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:41:36,486 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:42:36,744 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:43:36,985 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:44:37,271 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:44:37,308 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:44:37,644 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:44:37,729 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:44:38,073 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:44:38,181 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:44:38,655 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:44:38,753 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:44:39,249 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:44:39,335 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:44:39,750 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:44:39,835 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:44:40,200 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:45:37,561 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:45:37,639 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 10:45:38,113 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 10:45:38,210 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 10:45:38,765 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 10:45:38,867 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 10:45:39,330 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 10:46:37,845 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:47:38,088 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:48:38,382 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:48:38,420 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:48:38,746 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:48:38,855 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:48:39,183 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:48:39,284 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:48:39,769 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:48:39,855 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:48:40,249 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:48:40,336 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:48:40,771 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:48:40,856 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:48:41,247 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:49:38,622 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:50:38,878 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:51:39,119 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:52:39,406 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:52:39,455 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:52:39,811 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:52:39,902 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:52:40,273 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:52:40,384 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:52:40,879 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:52:40,967 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:52:41,437 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:52:41,526 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:52:41,963 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:52:42,052 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:52:42,449 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:53:39,787 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:54:40,030 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:55:40,271 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:56:40,544 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:56:40,584 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 10:56:40,928 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 10:56:41,044 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:56:41,373 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 10:56:41,488 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:56:41,967 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 10:56:42,055 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:56:42,465 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 10:56:42,552 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:56:43,092 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 10:56:43,178 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 10:56:43,560 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 10:57:40,792 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:58:41,040 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 10:59:41,281 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:00:41,734 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for atualli.local
+2021-07-22 11:00:41,884 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:00:42,540 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for atualli.local
+2021-07-22 11:00:42,722 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for atualli.local
+2021-07-22 11:00:43,672 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for atualli.local
+2021-07-22 11:00:43,822 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for atualli.local
+2021-07-22 11:00:44,448 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for atualli.local
+2021-07-22 11:00:44,586 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for atualli.local
+2021-07-22 11:00:45,351 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for atualli.local
+2021-07-22 11:00:45,480 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for atualli.local
+2021-07-22 11:00:46,195 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for atualli.local
+2021-07-22 11:00:46,456 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for atualli.local
+2021-07-22 11:00:47,114 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for atualli.local
+2021-07-22 11:00:47,282 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for atualli.local
+2021-07-22 11:00:47,748 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for atualli.local
+2021-07-22 11:00:47,847 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for atualli.local
+2021-07-22 11:00:48,295 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for atualli.local
+2021-07-22 11:00:48,392 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:00:48,735 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:00:48,826 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:00:49,201 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:00:49,307 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:00:49,804 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:00:49,894 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:00:50,325 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:00:50,412 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:00:50,834 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:00:50,921 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:00:51,334 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:00:51,426 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 11:00:51,910 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 11:00:52,026 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 11:00:52,613 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 11:00:52,740 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 11:00:53,242 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 11:01:42,129 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:02:42,374 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:03:42,625 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:04:42,942 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:04:43,007 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:04:43,328 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:04:43,423 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:04:43,779 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:04:43,878 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:04:44,359 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:04:44,445 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:04:44,901 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:04:45,036 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:04:45,468 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:04:45,576 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:04:45,920 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:05:43,181 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:06:43,417 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:07:43,844 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:08:44,283 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:08:44,346 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:08:44,862 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:08:45,011 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:08:45,467 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:08:45,559 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:08:46,189 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:08:46,349 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:08:47,067 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:08:47,244 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:08:48,149 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:08:48,329 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:08:49,095 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:09:44,506 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:10:44,736 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:11:44,976 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:12:45,278 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:12:45,315 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:12:45,613 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:12:45,704 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:12:46,034 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:12:46,145 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:12:46,616 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:12:46,704 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:12:47,083 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:12:47,192 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:12:47,620 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:12:47,706 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:12:48,062 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:13:45,532 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:14:45,887 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:15:46,211 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:15:46,313 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 11:15:46,844 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 11:15:46,942 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 11:15:47,536 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 11:15:47,637 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 11:15:48,178 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 11:16:46,481 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:16:46,522 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:16:46,854 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:16:46,946 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:16:47,278 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:16:47,368 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:16:47,811 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:16:47,896 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:16:48,311 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:16:48,397 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:16:48,810 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:16:48,894 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:16:49,283 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:17:46,903 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:18:47,260 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:19:47,685 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:20:48,155 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:20:48,618 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:20:49,770 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:20:49,924 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:20:50,491 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:20:50,653 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:20:51,561 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:20:51,711 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:20:52,457 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:20:52,611 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:20:53,281 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:20:53,440 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:20:54,237 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:21:48,593 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:22:48,951 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:23:49,448 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:24:49,894 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:24:49,988 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:24:50,537 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:24:50,714 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:24:51,348 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:24:51,500 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:24:52,317 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:24:52,477 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:24:53,214 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:24:53,403 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:24:54,248 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:24:54,405 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:24:55,160 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:25:50,363 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:26:50,633 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:27:50,957 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:28:51,410 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:28:51,465 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:28:51,934 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:28:52,031 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:28:52,388 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:28:52,491 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:28:53,101 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:28:53,308 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:28:54,018 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:28:54,211 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:28:54,688 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:28:54,846 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:28:55,305 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:29:51,781 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:30:52,147 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:30:52,280 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 11:30:53,121 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 11:30:53,362 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 11:30:54,442 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 11:30:54,611 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 11:30:55,430 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 11:31:52,587 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:32:53,002 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:32:53,077 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:32:53,700 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:32:53,858 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:32:54,392 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:32:54,577 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:32:55,394 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:32:55,556 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:32:56,225 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:32:56,378 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:32:57,092 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:32:57,296 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:32:58,027 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:33:53,434 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:34:53,775 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:35:54,143 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:36:54,530 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:36:54,669 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:36:55,404 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:36:55,558 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:36:56,178 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:36:56,356 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:36:57,192 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:36:57,341 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:36:58,026 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:36:58,176 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:36:58,842 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:36:58,986 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:36:59,578 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:37:54,852 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:38:55,090 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:39:55,412 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:40:55,702 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:40:55,745 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:40:56,085 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:40:56,194 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:40:56,533 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:40:56,641 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:40:57,157 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:40:57,245 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:40:57,717 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:40:57,806 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:40:58,193 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:40:58,282 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:40:58,677 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:41:55,943 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:42:56,189 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:43:56,437 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:44:56,715 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:44:56,757 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:44:57,092 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:44:57,182 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:44:57,487 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:44:57,582 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:44:58,065 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:44:58,155 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:44:58,566 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:44:58,655 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:44:59,077 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:44:59,165 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:44:59,603 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:45:57,016 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:45:57,092 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 11:45:57,658 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 11:45:57,765 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 11:45:58,391 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 11:45:58,488 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 11:45:59,008 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 11:46:57,234 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:47:57,473 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:48:57,836 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:48:57,899 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:48:58,423 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:48:58,616 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:48:59,140 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:48:59,301 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:49:00,365 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:49:00,542 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:49:01,355 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:49:01,547 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:49:02,383 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:49:02,573 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:49:03,337 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:49:58,151 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:50:58,474 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:51:58,891 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:52:59,263 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:52:59,314 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:52:59,724 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:52:59,847 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:53:00,270 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:53:00,383 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:53:00,985 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:53:01,105 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:53:01,620 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:53:01,737 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:53:02,250 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:53:02,366 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:53:02,832 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:53:59,568 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:54:59,885 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:56:00,316 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:56:00,362 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 11:56:00,746 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 11:56:00,864 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:56:01,287 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 11:56:01,442 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:56:02,096 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 11:56:02,217 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:56:02,721 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 11:56:02,834 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:56:03,373 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 11:56:03,483 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 11:56:03,946 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 11:57:00,643 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:58:00,962 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 11:59:01,310 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:00:02,248 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for atualli.local
+2021-07-22 12:00:02,516 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:00:03,971 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for atualli.local
+2021-07-22 12:00:04,211 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for atualli.local
+2021-07-22 12:00:05,850 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for atualli.local
+2021-07-22 12:00:06,085 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for atualli.local
+2021-07-22 12:00:07,124 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for atualli.local
+2021-07-22 12:00:07,341 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for atualli.local
+2021-07-22 12:00:08,724 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for atualli.local
+2021-07-22 12:00:08,955 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for atualli.local
+2021-07-22 12:00:10,005 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for atualli.local
+2021-07-22 12:00:10,222 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for atualli.local
+2021-07-22 12:00:11,160 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for atualli.local
+2021-07-22 12:00:11,374 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for atualli.local
+2021-07-22 12:00:12,374 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for atualli.local
+2021-07-22 12:00:12,614 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for atualli.local
+2021-07-22 12:00:13,670 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for atualli.local
+2021-07-22 12:00:13,906 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 12:00:14,612 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 12:00:14,830 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:00:15,516 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:00:15,708 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:00:16,761 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:00:16,981 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:00:17,912 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:00:18,101 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:00:18,778 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:00:18,955 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 12:00:19,578 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 12:00:19,745 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 12:00:20,750 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 12:00:20,963 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 12:00:22,366 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 12:00:22,636 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 12:00:23,889 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 12:01:02,803 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:02:03,133 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:03:03,478 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:04:03,876 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:04:03,972 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 12:04:04,444 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 12:04:04,561 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:04:04,965 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:04:05,083 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:04:05,778 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:04:05,893 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:04:06,446 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:04:06,566 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:04:07,147 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:04:07,265 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 12:04:07,773 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 12:05:04,190 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:06:04,489 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:07:04,711 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:08:04,973 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:08:05,018 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 12:08:05,368 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 12:08:05,484 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:08:05,814 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:08:05,902 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:08:06,383 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:08:06,471 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:08:06,882 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:08:06,971 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:08:07,400 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:08:07,490 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 12:08:07,864 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 12:09:05,208 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:10:05,449 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:11:05,781 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:12:06,137 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:12:06,186 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 12:12:06,585 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 12:12:06,702 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:12:07,112 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:12:07,227 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:12:07,828 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:12:07,943 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:12:08,445 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:12:08,574 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:12:09,074 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:12:09,183 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 12:12:09,631 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 12:13:06,426 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:14:06,746 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:15:07,072 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:15:07,156 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 12:15:07,789 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for atualli.local
+2021-07-22 12:15:07,917 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 12:15:08,649 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for atualli.local
+2021-07-22 12:15:08,772 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 12:15:09,372 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for atualli.local
+2021-07-22 12:16:07,455 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:16:07,499 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 12:16:07,897 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 12:16:08,010 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:16:08,414 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:16:08,529 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:16:09,251 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:16:09,355 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:16:09,829 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:16:09,938 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:16:10,440 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:16:10,552 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 12:16:10,995 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 12:17:07,768 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:18:08,129 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:19:08,454 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:20:08,830 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:20:08,876 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 12:20:09,267 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 12:20:09,384 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:20:09,773 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:20:09,903 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:20:10,484 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:20:10,590 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:20:11,076 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-22 12:20:11,188 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:20:11,684 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-22 12:20:11,797 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-22 12:20:12,251 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local
+2021-07-22 12:21:09,108 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:22:09,433 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:23:09,719 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:24:10,098 DEBUG scheduler Queued events for site atualli.local
+2021-07-22 12:24:10,146 INFO scheduler Scheduled Job Start: frappe.monitor.flush for atualli.local
+2021-07-22 12:24:10,549 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for atualli.local
+2021-07-22 12:24:10,676 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:24:11,082 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for atualli.local
+2021-07-22 12:24:11,196 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:24:11,783 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for atualli.local
+2021-07-22 12:24:11,891 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local

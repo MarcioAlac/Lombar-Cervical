@@ -426,3 +426,795 @@ Traceback (most recent call last):
     raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
 redis.exceptions.ConnectionError: Connection closed by server.
 
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Traceback (most recent call last):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+
+    sock = self._connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+    sock = self._connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+    raise err
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+    return self.main(*args, **kwargs)
+ConnectionRefusedError: [Errno 111] Connection refused
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/data/bench/apps/frappe/frappe/commands/scheduler.py", line 177, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/data/bench/apps/frappe/frappe/utils/background_jobs.py", line 148, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    click.Group(commands=commands)(prog_name='bench')
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+
+    self.register_death()
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    return self.main(*args, **kwargs)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+    connection.connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+    rv = self.invoke(ctx)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/data/bench/apps/frappe/frappe/commands/scheduler.py", line 177, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/data/bench/apps/frappe/frappe/utils/background_jobs.py", line 148, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+Traceback (most recent call last):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+    return self.main(*args, **kwargs)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/data/bench/apps/frappe/frappe/commands/scheduler.py", line 177, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/data/bench/apps/frappe/frappe/utils/background_jobs.py", line 148, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3978, in parse_response
+    self, connection, command_name, **options)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 223, in _read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+
+Traceback (most recent call last):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+    sock = self._connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/data/bench/apps/frappe/frappe/commands/scheduler.py", line 177, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/data/bench/apps/frappe/frappe/utils/background_jobs.py", line 148, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+12:09:55 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Traceback (most recent call last):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+Traceback (most recent call last):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+    sock = self._connect()
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+    main()
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/data/bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+    return self.main(*args, **kwargs)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+    rv = self.invoke(ctx)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/data/bench/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+    return callback(*args, **kwargs)
+  File "/data/bench/apps/frappe/frappe/commands/scheduler.py", line 177, in start_worker
+  File "/data/bench/apps/frappe/frappe/commands/scheduler.py", line 177, in start_worker
+    start_worker(queue, quiet = quiet)
+    start_worker(queue, quiet = quiet)
+  File "/data/bench/apps/frappe/frappe/utils/background_jobs.py", line 148, in start_worker
+  File "/data/bench/apps/frappe/frappe/utils/background_jobs.py", line 148, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+    self.register_death()
+  File "/data/bench/env/lib/python3.6/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 4013, in execute
+    p.execute()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    self.shard_hint)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+    connection.connect()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+
+
+12:20:53 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/data/bench/env/lib/python3.6/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+

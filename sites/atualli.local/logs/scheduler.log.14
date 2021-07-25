@@ -1,0 +1,6 @@
+2021-07-21 13:28:11,269 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-21 13:28:11,834 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for atualli.local
+2021-07-21 13:28:11,961 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-21 13:28:12,550 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for atualli.local
+2021-07-21 13:28:12,678 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for atualli.local
+2021-07-21 13:28:13,186 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for atualli.local

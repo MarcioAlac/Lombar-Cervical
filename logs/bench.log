@@ -85,3 +85,83 @@
 2021-07-20 09:36:11,826 INFO /home/zed/.local/bin/bench watch
 2021-07-20 09:36:11,869 INFO /home/zed/.local/bin/bench schedule
 2021-07-20 12:00:02,395 INFO /home/zed/.local/bin/bench --verbose --site all backup
+2021-07-20 12:35:14,128 INFO /home/zed/.local/bin/bench start
+2021-07-20 12:35:15,092 INFO /home/zed/.local/bin/bench schedule
+2021-07-20 12:35:15,110 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-20 12:35:15,136 INFO /home/zed/.local/bin/bench watch
+2021-07-20 12:35:15,153 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-20 12:35:15,154 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-20 12:35:15,171 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-21 12:00:02,655 INFO /home/zed/.local/bin/bench --verbose --site all backup
+2021-07-21 12:36:55,714 INFO /home/zed/.local/bin/bench start
+2021-07-21 12:36:56,610 INFO /home/zed/.local/bin/bench schedule
+2021-07-21 12:36:56,645 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-21 12:36:56,687 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-21 12:36:56,707 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-21 12:36:56,776 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-21 12:36:56,910 INFO /home/zed/.local/bin/bench watch
+2021-07-21 12:39:51,219 INFO /home/zed/.local/bin/bench start
+2021-07-21 12:39:52,167 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-21 12:39:52,205 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-21 12:39:52,205 INFO /home/zed/.local/bin/bench schedule
+2021-07-21 12:39:52,272 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-21 12:39:52,331 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-21 12:39:52,392 INFO /home/zed/.local/bin/bench watch
+2021-07-22 12:00:02,548 INFO /home/zed/.local/bin/bench --verbose --site all backup
+2021-07-23 09:25:59,572 INFO /home/zed/.local/bin/bench start
+2021-07-23 09:26:00,852 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-23 09:26:00,915 INFO /home/zed/.local/bin/bench schedule
+2021-07-23 09:26:00,989 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-23 09:26:01,040 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-23 09:26:01,043 INFO /home/zed/.local/bin/bench watch
+2021-07-23 09:26:01,140 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-23 09:57:00,373 INFO /home/zed/.local/bin/bench start
+2021-07-23 09:57:01,248 INFO /home/zed/.local/bin/bench schedule
+2021-07-23 09:57:01,313 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-23 09:57:01,331 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-23 09:57:01,381 INFO /home/zed/.local/bin/bench watch
+2021-07-23 09:57:01,386 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-23 09:57:01,449 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-23 09:57:19,343 INFO /home/zed/.local/bin/bench start
+2021-07-23 09:57:20,158 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-23 09:57:20,273 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-23 09:57:20,325 INFO /home/zed/.local/bin/bench watch
+2021-07-23 09:57:20,350 INFO /home/zed/.local/bin/bench schedule
+2021-07-23 09:57:20,354 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-23 09:57:20,355 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-23 12:00:01,931 INFO /home/zed/.local/bin/bench --verbose --site all backup
+2021-07-23 13:04:56,988 INFO /home/zed/.local/bin/bench start
+2021-07-23 13:04:57,744 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-23 13:04:57,927 INFO /home/zed/.local/bin/bench watch
+2021-07-23 13:04:57,952 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-23 13:04:57,980 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-23 13:04:58,050 INFO /home/zed/.local/bin/bench schedule
+2021-07-23 13:04:58,066 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-24 12:11:03,366 INFO /home/zed/.local/bin/bench start
+2021-07-24 12:11:04,242 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-24 12:11:04,297 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-24 12:11:04,313 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-24 12:11:04,358 INFO /home/zed/.local/bin/bench watch
+2021-07-24 12:11:04,370 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-24 12:11:04,406 INFO /home/zed/.local/bin/bench schedule
+2021-07-24 12:11:17,552 INFO /home/zed/.local/bin/bench start
+2021-07-24 12:11:18,394 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-24 12:11:18,508 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-24 12:11:18,512 INFO /home/zed/.local/bin/bench schedule
+2021-07-24 12:11:18,600 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-24 12:11:18,629 INFO /home/zed/.local/bin/bench watch
+2021-07-24 12:11:18,634 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-25 15:34:58,218 INFO /home/zed/.local/bin/bench start
+2021-07-25 15:34:59,166 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-25 15:34:59,211 INFO /home/zed/.local/bin/bench schedule
+2021-07-25 15:34:59,245 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-25 15:34:59,334 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-25 15:34:59,384 INFO /home/zed/.local/bin/bench worker --queue long
+2021-07-25 15:34:59,444 INFO /home/zed/.local/bin/bench watch
+2021-07-25 15:35:06,762 INFO /home/zed/.local/bin/bench start
+2021-07-25 15:35:07,828 INFO /home/zed/.local/bin/bench watch
+2021-07-25 15:35:07,859 INFO /home/zed/.local/bin/bench worker --queue short
+2021-07-25 15:35:07,887 INFO /home/zed/.local/bin/bench worker --queue default
+2021-07-25 15:35:07,892 INFO /home/zed/.local/bin/bench schedule
+2021-07-25 15:35:07,946 INFO /home/zed/.local/bin/bench serve --port 8000
+2021-07-25 15:35:07,946 INFO /home/zed/.local/bin/bench worker --queue long
